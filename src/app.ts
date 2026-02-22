@@ -20,7 +20,7 @@ app.use(cors({
     'http://localhost:8082', // Expo mobile alternative
     'http://192.168.1.34:8081', // Mobile device
     'http://192.168.1.34:8082', // Mobile device alternative
-    'https://products-4-2lgc.onrender.com', // Production backend (for testing)
+    'https://reputationrootswebapp.vercel.app/', // Production backend (for testing)
   ],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
